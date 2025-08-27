@@ -1,0 +1,51 @@
+ Sistemas tolerantes a fallas
+
+Un sistema tolerante a fallas es aquel diseñado para seguir funcionando correctamente aunque ocurran fallos en alguno de sus componentes.
+No significa que nunca falle, sino que mantiene el servicio (aunque sea degradado) mediante redundancia, recuperación o aislamiento de los errores.
+Ejemplo: servidores en la nube con balanceo de carga, aviones con sistemas duplicados.
+
+ Falla
+
+Una falla es la manifestación externa de que el sistema ya no cumple con la función esperada.
+Ocurre cuando un error llega al nivel visible del servicio.
+Ejemplo: un servidor deja de responder solicitudes.
+
+ Error
+
+Un error es un estado interno incorrecto del sistema que puede provocar una falla si no se detecta o corrige.
+Ejemplo: corrupción en la memoria RAM, un cálculo mal realizado en un software.
+Diferencia clave: el error es interno, la falla es observable desde fuera.
+
+ Latencia de un fallo
+
+Es el tiempo entre la activación de un error y la aparición de la falla.
+Indica cuánto tiempo pasa antes de que el usuario perciba el problema.
+Ejemplo: un bug en un programa que solo se manifiesta después de horas de ejecución.
+
+ Latencia de un error
+
+Es el tiempo entre la ocurrencia del defecto (la causa raíz) y la activación del error.
+Ejemplo: un bit defectuoso en la RAM puede tardar mucho tiempo en provocar un error visible.
+
+ Tipos de fallos
+
+Transitorios
+Aparecen por un corto tiempo y luego desaparecen.
+Ejemplo: interferencia eléctrica.
+Intermitentes
+Ocurren varias veces de forma aleatoria, sin ser permanentes.
+Ejemplo: un conector flojo que a veces falla.
+Permanentes
+Una vez que ocurren, persisten hasta que se repare o sustituya el componente.
+Ejemplo: un disco duro quemado.
+
+ Métricas clave
+
+Disponibilidad (Availability):
+Proporción de tiempo en que el sistema está operativo y accesible.
+Confiabilidad (Reliability):
+Probabilidad de que el sistema funcione sin fallar durante un intervalo de tiempo específico.
+MTTF (Mean Time To Failure):
+Tiempo promedio que pasa antes de que ocurra la primera falla.
+
+MTTR (Mean Time To Repair):
