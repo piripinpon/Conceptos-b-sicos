@@ -1,7 +1,7 @@
  Sistemas tolerantes a fallas
 
-Un sistema tolerante a fallas es aquel diseñado para seguir funcionando correctamente aunque ocurran fallos en alguno de sus componentes.
-No significa que nunca falle, sino que mantiene el servicio (aunque sea degradado) mediante redundancia, recuperación o aislamiento de los errores.
+Un sistema tolerante a fallos es exactamente lo que menciona su nombre, es un sistema que sin importar los fallos que 
+se le presente, seguira en funcionamiento.
 Ejemplo: servidores en la nube con balanceo de carga, aviones con sistemas duplicados.
 
  Falla
